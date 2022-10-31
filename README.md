@@ -47,8 +47,4 @@ GET api/v1/{post_id}/comments/{id}/ - Получение комментария 
 #### Все остальные примеры запросов доступны в документации
 
 # Author
-<<<<<<< HEAD
 ## Igor Krupko
-=======
-## Igor Krupko
->>>>>>> b7cf9f2a9c0e78d90758f18b423df2b76b2c2f0a
