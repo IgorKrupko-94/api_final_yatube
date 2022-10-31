@@ -7,18 +7,31 @@
 
 ## Запуск проекта в dev-режиме
 Клонировать репозиторий и перейти в него в командной строке:
+
 ``` git clone git@github.com:IgorKrupko-94/yatube_project.git ```
+
 ``` cd api_final_yatube ```
+
 Установите и активируйте виртуальное окружение c учетом версии Python 3.7 (выбираем python не ниже 3.7):
+
 ``` py -3.7 -m venv venv ```
+
 ``` venv/Scripts/activate ```
+
 ``` python -m pip install --upgrade pip ```
+
 Затем нужно установить все зависимости из файла requirements.txt:
+
 ``` pip install -r requirements.txt ```
+
 Выполняем миграции:
+
 ``` python manage.py migrate ```
+
 Запускаем проект:
+
 ``` python manage.py runserver ```
+
 ### Примеры работы с API для всех пользователей
 ###### Для неавторизованных пользователей работа с API доступна в режиме чтения, что-либо изменить или создать не получится.
 GET api/v1/posts/ - получить список всех публикаций.
