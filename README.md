@@ -12,7 +12,7 @@
 ## Запуск проекта в dev-режиме
 Клонировать репозиторий и перейти в него в командной строке:
 ``` 
-git clone git@github.com:IgorKrupko-94/yatube_project.git 
+git clone git@github.com:IgorKrupko-94/api_final_yatube.git 
 ```
 ``` 
 cd api_final_yatube 
@@ -39,6 +39,7 @@ pip install -r requirements.txt
 ```
 Выполняем миграции:
 ``` 
+python manage.py makemigrations
 python manage.py migrate 
 ```
 Запускаем проект:
